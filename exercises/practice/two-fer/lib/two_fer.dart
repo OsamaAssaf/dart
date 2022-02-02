@@ -1,4 +1,4 @@
 String twoFer() {
-  // Replace the throw call and put your code here
-  throw UnimplementedError();
+  String? name = stdin.readLineSync();
+  return 'One for ${name == '' ? 'you':name}, one for me.';
 }
